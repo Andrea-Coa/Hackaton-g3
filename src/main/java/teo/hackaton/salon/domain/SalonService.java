@@ -24,4 +24,8 @@ public class SalonService {
     public void deleteSalon(Long id) {
         x|salonRepository.deleteById(id);
     }
+
+    public void updateSalon(Salon salon) {
+
+    }
 }

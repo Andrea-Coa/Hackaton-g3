@@ -3,6 +3,7 @@ package teo.hackaton.salon.application;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import teo.hackaton.salon.domain.Salon;
 import teo.hackaton.salon.domain.SalonService;
 
 import java.util.List;
