@@ -60,6 +60,7 @@ public class AuthService {
             driver.setCategory(req.getCategory());
             driver.setVehicle(modelMapper.map(req.getVehicle(), Vehicle.class));
             driver.setTrips(0);
+
             driver.setAvgRating(0f);
             driver.setCreatedAt(ZonedDateTime.now());
             driver.setRole(Role.DRIVER);
